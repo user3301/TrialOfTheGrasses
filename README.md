@@ -193,6 +193,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 14 | :star:[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C#](./CSharp/leetcodesln/LongestCommonPrefix.cs) | Easy | `String` | O(m*n) | O(1)|
 | 1221 | :white_check_mark:[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C#](./CSharp/leetcodesln/SplitAStringInBalancedStrings.cs) | Easy | `Stack`, `Greedy` | O(n) | O(n)|
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [C#](./CSharp/leetcodesln/DecryptStringFromAlphabetToIntegerMapping.cs) [Go](Go/questions/DecryptStringFromAlphabetToIntegerMapping.go) | Easy | `Strings` | O(n) | O(n) |
+| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/questions/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
 
 ### Linked List
 
