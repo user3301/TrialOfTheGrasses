@@ -250,6 +250,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [C#](./CSharp/leetcodesln/N-RepeatedElementInSize2NArray.cs) [Go](Go/questions/N_RepestedElementInSize2NArray.go) | Easy | `Hashtable`, `Array` | O(n) | O(n) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [C#](./CSharp/leetcodesln/FindCommonCharacters.cs) | Easy | `Array`, `HashTable` | O(26*26) | O(n) |
 | 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | [C#](CSharp/leetcodesln/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cs) | Medium | `Greedy` `Hashtable` | O(n) | O(n) |
+| 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Go](Go/questions/CheckIfNAndItsDoubleExist.go) | Easy | `HashSet` | O(n) | O(n) |
 
 ### Dynamic Programming
 
