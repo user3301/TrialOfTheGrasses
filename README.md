@@ -115,6 +115,8 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1310 |[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [C#](CSharp/leetcodesln/XORQueriesOfASubarray.cs) [Go](Go/questions/XORQueriesOfASubarray.go) | Medium | `Arrays` `Bit Manipulation` | O(n) | O(n) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C#](CSharp/leetcodesln/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.cs) [Go](Go/questions/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.go) | Easy | `Math` | O(n) | O(1) |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C#](CSharp/leetcodesln/MinimumFilpsToMakeAORBEqualToC.cs) | Medium | `Bit Manipulation` | O(n) | O(1) |
+| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/questions/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
+| 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/questions/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 
 ## Algorithms
 
@@ -282,3 +284,4 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
 |---|----|--------|--------|----|-----|------|
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C#](CSharp/leetcodesln/MinimumFilpsToMakeAORBEqualToC.cs) | Medium | `Bit Manipulation` | O(n) | O(1) |
+| 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/questions/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
