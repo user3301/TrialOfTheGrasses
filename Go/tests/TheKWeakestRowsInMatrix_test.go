@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestTheKWeakestRows(t *testing.T) {
+func TestTheKWeakestRows1(t *testing.T) {
 	input := [][]int{
 		{1, 1, 0, 0, 0},
 		{1, 1, 1, 1, 0},
@@ -16,6 +16,43 @@ func TestTheKWeakestRows(t *testing.T) {
 	}
 	k := 3
 	expected := []int{2, 0, 3}
+	actual := questions.KWeakestRows(input, k)
+	assert.DeepEqual(t, expected, actual)
+}
+
+func TestTheKWeakestRows2(t *testing.T) {
+	input := [][]int{
+		{1, 0},
+		{1, 0},
+		{1, 0},
+		{1, 1},
+	}
+	k := 4
+	expected := []int{0, 1, 2, 3}
+	actual := questions.KWeakestRows(input, k)
+	assert.DeepEqual(t, expected, actual)
+}
+
+func TestTheKWeakestRows3(t *testing.T) {
+	input := [][]int{
+		{1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1},
+	}
+	k := 1
+	expected := []int{0}
+	actual := questions.KWeakestRows(input, k)
+	assert.DeepEqual(t, expected, actual)
+}
+
+func TestTheKWeakestRows4(t *testing.T) {
+	input := [][]int{
+		{1, 0},
+		{0, 0},
+		{1, 0},
+	}
+	k := 2
+	expected := []int{1,0}
 	actual := questions.KWeakestRows(input, k)
 	assert.DeepEqual(t, expected, actual)
 }

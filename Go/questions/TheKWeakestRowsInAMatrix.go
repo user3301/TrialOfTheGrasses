@@ -2,7 +2,7 @@ package questions
 
 func KWeakestRows(mat [][]int, k int) []int {
 	bucket := make([][]int, len(mat[0])+1)
-	for i := 0; i < len(mat); i++ {
+	for i := 0; i < len(mat[0])+1; i++ {
 		bucket[i] = make([]int, 0)
 	}
 	for i := 0; i < len(mat); i++ {
@@ -17,7 +17,7 @@ func KWeakestRows(mat [][]int, k int) []int {
 		bucket[count] = append(bucket[count], i)
 	}
 
-	ans := []int{}
+	var ans []int
 
 	for i:= 0; i < len(bucket); i++ {
 		for len(bucket[i]) > 0 && k > 0 {
