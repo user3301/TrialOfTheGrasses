@@ -52,7 +52,7 @@ func TestTheKWeakestRows4(t *testing.T) {
 		{1, 0},
 	}
 	k := 2
-	expected := []int{1,0}
+	expected := []int{1, 0}
 	actual := questions.KWeakestRows(input, k)
 	assert.DeepEqual(t, expected, actual)
 }
