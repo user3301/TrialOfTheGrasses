@@ -113,6 +113,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [C#](CSharp/leetcodesln/FindNUniqueIntegersSumUpToZero.cs) [Go](Go/questions/FindNUniqueIntegersSumUpToZero.go) | Easy | `Array` | O(n) | O(n) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [C#](./CSharp/leetcodesln/DecryptStringFromAlphabetToIntegerMapping.cs) [Go](Go/questions/DecryptStringFromAlphabetToIntegerMapping.go) | Easy | `Strings` | O(n) | O(n) |
 | 1310 |[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [C#](CSharp/leetcodesln/XORQueriesOfASubarray.cs) [Go](Go/questions/XORQueriesOfASubarray.go) | Medium | `Arrays` `Bit Manipulation` | O(n) | O(n) |
+| 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Go](Go/questions/DecompressRun-LengthEncodedList.go) | Easy | `Array` | O(n) | O(n) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C#](CSharp/leetcodesln/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.cs) [Go](Go/questions/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.go) | Easy | `Math` | O(n) | O(1) |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C#](CSharp/leetcodesln/MinimumFilpsToMakeAORBEqualToC.cs) | Medium | `Bit Manipulation` | O(n) | O(1) |
 | 1331 | :star:[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Go](Go/questions/RankTransformOfAnArray.go) | Easy | `HashTable` | O(n) | O(n) |
@@ -231,6 +232,7 @@ Prefix-caching can solve many subarray related problems.
 | 1222| :star:[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [C#](./CSharp/leetcodesln/QueensThatCanAttackTheKing.cs) | Medium | `Array` | O(1) | O(64) |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [C#](CSharp/leetcodesln/FindNUniqueIntegersSumUpToZero.cs) [Go](Go/questions/FindNUniqueIntegersSumUpToZero.go) | Easy | `Array` | O(n) | O(n) |
 | 1310 |[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [C#](CSharp/leetcodesln/XORQueriesOfASubarray.cs) [Go](Go/questions/XORQueriesOfASubarray.go) | Medium | `Arrays` `Bit Manipulation` | O(n) | O(n) |
+| 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Go](Go/questions/DecompressRun-LengthEncodedList.go) | Easy | `Array` | O(n) | O(n) |
 
 ### Stack
 
