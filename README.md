@@ -120,6 +120,8 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/questions/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/questions/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/questions/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
+| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/questions/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
+| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/questions/ClosestDivisors.go) | `Medium` | Math | O(n) | O(1) |
 
 ## Algorithms
 
@@ -200,6 +202,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1221 | :white_check_mark:[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C#](./CSharp/leetcodesln/SplitAStringInBalancedStrings.cs) | Easy | `Stack`, `Greedy` | O(n) | O(n)|
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [C#](./CSharp/leetcodesln/DecryptStringFromAlphabetToIntegerMapping.cs) [Go](Go/questions/DecryptStringFromAlphabetToIntegerMapping.go) | Easy | `Strings` | O(n) | O(n) |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/questions/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
+| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/questions/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
 
 ### Linked List
 
@@ -279,6 +282,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 |---|----|--------|--------|----|-----|------|
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [C#](CSharp/leetcodesln/SubtractTheProductAndSumOfDigitOfAnInteger.cs) [Go](Go/questions/SubtractTheProductAndSumOfDigitOfAnInteger.go) | Easy | `Math` | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C#](CSharp/leetcodesln/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.cs) [Go](Go/questions/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.go) | Easy | `Math` | O(n) | O(1) |
+| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/questions/ClosestDivisors.go) | `Medium` | Math | O(n) | O(1) |
 
 ### Greedy
 
