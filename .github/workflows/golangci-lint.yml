@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: linting
+        name: checkout
+      - uses: ./Go
+        name: linting
         run: make lint
-        working-directory: ./Go
-        uses: actions-contrib/golangci-lint@v1
