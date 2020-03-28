@@ -212,4 +212,5 @@ issues:
   # e.g. new-from-patch: path/to/patch/file
 
 service:
+  project-path: ./Go
   golangci-lint-version: 1.17.x
