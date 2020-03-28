@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: switch dir
-        run: cd ./Go | ls -a
+        run: cd Go && ls -a
