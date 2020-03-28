@@ -5,8 +5,5 @@ jobs:
     runs-on: ubuntu-latest
 #    working-directory: ./Go
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions-contrib/golangci-lint@v1
-        env:
-          GO111MODULE: "on"
-          GOFLAGS: "-mod=vendor"
+      - name: golangci-lint
+        uses: actions-contrib/golangci-lint@v1
