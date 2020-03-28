@@ -12,11 +12,12 @@ func canFind(f float64, c int) bool {
 	l, r := 0, int(f)
 
 	for l <= r {
-		if l*l+r*r == c {
+		switch {
+		case l*l+r*r == c:
 			return true
-		} else if l*l+r*r > c {
+		case l*l+r*r > c:
 			r--
-		} else {
+		default:
 			l++
 		}
 	}

@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestRankTeams1(T *testing.T) {
+func TestRankTeams1(t *testing.T) {
 	votes := []string{
 		"ABC",
 		"ACB",

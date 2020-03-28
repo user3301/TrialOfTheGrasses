@@ -1,8 +1,9 @@
 package Go
 
 import (
-	"gotest.tools/assert"
 	"testing"
+
+	"gotest.tools/assert"
 )
 
 func TestCheckIfNAndItsDoubleExist1(t *testing.T) {

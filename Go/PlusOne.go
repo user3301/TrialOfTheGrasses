@@ -5,7 +5,7 @@ func PlusOne(digits []int) []int {
 		if digits[i]+1 == 10 {
 			digits[i] = 0
 		} else {
-			digits[i] = digits[i] + 1
+			digits[i]++
 			return digits
 		}
 	}

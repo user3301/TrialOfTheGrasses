@@ -19,11 +19,12 @@ func SearchInRotatedSortedArray(nums []int, target int) int {
 	for l <= r {
 		mid := (l + r) >> 1
 		realmid := (mid + shuffle) % len(nums)
-		if nums[realmid] == target {
+		switch {
+		case nums[realmid] == target:
 			return realmid
-		} else if nums[realmid] > target {
+		case nums[realmid] > target:
 			r = mid - 1
-		} else {
+		default:
 			l = mid + 1
 		}
 	}

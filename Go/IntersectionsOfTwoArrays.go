@@ -12,7 +12,7 @@ func Intersection(nums1 []int, nums2 []int) []int {
 	}
 
 	for _, val := range nums2 {
-		if set[val] == true {
+		if set[val] {
 			ans = append(ans, val)
 			set[val] = false
 		}

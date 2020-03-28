@@ -1,19 +1,23 @@
 package Go
 
 import (
-	"gotest.tools/assert"
+	"os"
 	"testing"
+
+	"gotest.tools/assert"
 )
 
 var input [][]int
 
-func init() {
+func TestMain(m *testing.M) {
+	defer os.Exit(1)
 	input = [][]int{
 		{4, 3, 2, -1},
 		{3, 2, 1, -1},
 		{1, 1, -1, -2},
 		{-1, -1, -2, -3},
 	}
+	m.Run()
 }
 
 func TestCountNegativesBF(t *testing.T) {

@@ -27,8 +27,8 @@ func RankTeams(votes []string) string {
 	var buf bytes.Buffer
 	cur := byte('A')
 	max := 0
-	for len(stats) !=0 {
-		for k,v := range stats {
+	for len(stats) != 0 {
+		for k, v := range stats {
 			if v > max {
 				cur = k
 				max = v
@@ -39,9 +39,9 @@ func RankTeams(votes []string) string {
 				}
 			}
 		}
-		buf.WriteByte(cur)
+		_ = buf.WriteByte(cur)
 		delete(stats, cur)
-		cur =byte('A')
+		cur = byte('A')
 		max = 0
 	}
 	return buf.String()

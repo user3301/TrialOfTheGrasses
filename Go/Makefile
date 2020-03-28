@@ -18,3 +18,6 @@ test:
 test-clean:
 	$(GOCLEAN) -testcache
 	
+.PHONY: lint
+lint:
+	golangci-lint run
