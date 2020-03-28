@@ -8,5 +8,5 @@ jobs:
         uses: actions-contrib/golangci-lint@v1
 
       - name: load
-          working-directory: ./Go
-          run: make lint
+        working-directory: ./Go
+        run: make lint
