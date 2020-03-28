@@ -7,3 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: switch dir
         run: cd Go && ls -a
+      - name: linting
+        run: make lint
