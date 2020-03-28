@@ -3,10 +3,8 @@ on: push
 jobs:
   lint:
     runs-on: ubuntu-latest
-    env:
-      working-directory: ./Go
     steps:
       - name: golangci-lint
         uses: actions-contrib/golangci-lint@v1
         run: make lint
-        working-directory: ${{env.working-directory}}
+        working-directory: ./Go
