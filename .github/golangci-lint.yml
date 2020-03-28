@@ -3,7 +3,7 @@ on: push
 jobs:
   lint:
     runs-on: ubuntu-latest
-#    working-directory: ./Go
     steps:
       - name: golangci-lint
         uses: actions-contrib/golangci-lint@v1
+        working-directory: ./Go
