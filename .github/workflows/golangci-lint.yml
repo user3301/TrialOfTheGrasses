@@ -8,6 +8,6 @@ jobs:
       - name: switch dir
         run: cd Go
       - name: install lint tool
-        run: docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.24.0 golangci-lint run -v
+        run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s v1.24.0
       - name: linting
         run: golangci-lint run
