@@ -4,7 +4,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: golangci-lint
+      - uses: actions/checkout@v2
+      - name: Run golangci-lint
         uses: actions-contrib/golangci-lint@v1
-        run: make lint
         working-directory: ./Go
