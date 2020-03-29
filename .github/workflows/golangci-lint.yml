@@ -5,9 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: switch dir
-        run: cd Go
-      - name: install lint tool
-        run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s v1.24.0
-      - name: linting
-        run: golangci-lint run
+      - name: Run golangci-lint
+        uses: actions-contrib/golangci-lint@v1
