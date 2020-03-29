@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Go project
-        uses: ./Go/.github/workflows
+      - uses: /Go
+      - uses: actions-contrib/golangci-lint@v1
