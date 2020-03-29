@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Go project
-        uses: ./Go/.github/workflows/lint.yml
+        uses: ./Go/.github/workflows
