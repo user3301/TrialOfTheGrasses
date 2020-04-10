@@ -10,4 +10,4 @@ jobs:
           git clone https://github.com/user3301/TrialOfTheGrasses
       - name: lint
         run: golangci-lint run -v
-        working-directory: ./Go
+        working-directory: ./TrialOfTheGrasses/Go
