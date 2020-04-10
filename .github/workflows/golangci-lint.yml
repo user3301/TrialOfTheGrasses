@@ -1,11 +1,11 @@
-name: Quality Checks
-on:
-  push:
-    paths:
-      - 'Go/*'
+name: Github Actions
+on: push
+
 jobs:
-  lint:
+  go-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions-contrib/golangci-lint@v1
+      - name: checkout repository
+        uses: actions/checkout@v2
+      - name: use local lint-action
+        uses: ./Go/.github/workflows

@@ -1,0 +1,9 @@
+name: Code Quality Analysis
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-contrib/golangci-lint@v1
