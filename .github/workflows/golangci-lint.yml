@@ -8,7 +8,5 @@ jobs:
       - name: pwd
         run: |
           git clone https://github.com/user3301/TrialOfTheGrasses
-          ls
-          pwd
-          cd Go
+          cd TrialOfTheGrasses/Go
           pwd
