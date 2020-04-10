@@ -1,6 +1,6 @@
 name: Quality Checks
 on:
-  push
+  push:
     paths:
       - 'Go/*'
 jobs:
