@@ -5,7 +5,5 @@ jobs:
   go-lint:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v2
-      - name: use local lint-action
-        uses: ./Go/.github/workflows
+      - name: pwd
+        run: pwd
