@@ -9,5 +9,5 @@ jobs:
         run: |
           git clone https://github.com/user3301/TrialOfTheGrasses
       - name: lint
-        run: golangci-lint run -v
+        run: pwd && golangci-lint run -v
         working-directory: ./TrialOfTheGrasses/Go
