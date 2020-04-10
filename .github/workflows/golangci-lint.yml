@@ -1,10 +1,11 @@
 name: Quality Checks
-on: push
+on:
+  push
+    paths:
+      - 'Go/*'
 jobs:
   lint:
     runs-on: ubuntu-latest
-    paths:
-      - 'Go/*'
     steps:
       - uses: actions/checkout@v2
       - uses: actions-contrib/golangci-lint@v1
