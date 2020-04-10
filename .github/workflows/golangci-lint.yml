@@ -5,8 +5,9 @@ jobs:
   go-lint:
     runs-on: ubuntu-latest
     steps:
-      - name: pwd
+      - name: clone
         run: |
           git clone https://github.com/user3301/TrialOfTheGrasses
-          cd TrialOfTheGrasses/Go
-          pwd
+      - name: lint
+        run: golangci-lint run -v
+        working-directory: ./Go
