@@ -6,4 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pwd
-        run: pwd
+        run: |
+          pwd
+          cd Go
+          pwd
