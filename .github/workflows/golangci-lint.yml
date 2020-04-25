@@ -7,6 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions-contrib/golangci-lint@v1
+        with:
+          entrypoint: Go/
         env:
           GO111MODULE: "on"
           GOFLAGS: "-mod=vendor"
