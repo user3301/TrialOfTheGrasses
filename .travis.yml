@@ -1,16 +1,24 @@
-language: csharp
-mono: none
 os: linux
 dist: xenial
-dotnet: 3.0.100
+sudo: required
+matrix:
+  include:
+    - language: csharp
+      mono: none
+      dotnet: 3.0.100
+      before_script:
+        - cd CSharp
+      script:
+        - dotnet restore
+        - dotnet build
+        - dotnet test leetcodesln_test/leetcodesln_test.csproj
 
-install:
-- dotnet restore
-
-script:
-- dotnet build
-- dotnet test leetcodesln_test/leetcodesln_test.csproj
-
+    - language: go
+      before_script:
+        - cd Go
+      script:
+        - go test -v ./... --timeout=1m
+        
 notifications:
   email:
     recipients:

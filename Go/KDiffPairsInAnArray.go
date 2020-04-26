@@ -1,29 +1,16 @@
 package Go
 
-import "sort"
-
 func FindPairs(nums []int, k int) int {
 	ans := 0
-	sort.Ints(nums)
-
-	for i := 0; i < len(nums)-1; i++ {
-		l, r := i+1, len(nums)-1
-
-		for l <= r {
-			mid := (l + r) >> 1
-			switch {
-			case nums[mid]-nums[i] == k:
-				ans++
-			case nums[mid]-nums[i] > k:
-				r = mid - 1
-			default:
-				l = mid + 1
-			}
-		}
-		for i < len(nums)-2 && nums[i+1] == nums[i] {
-			i++
+	dist := make(map[int]int)
+	for _, v := range nums {
+		dist[v]++
+	}
+	for i, v := range dist {
+		_, ok := dist[i+k]
+		if k > 0 && ok || k == 0 && v >= 2 {
+			ans++
 		}
 	}
 	return ans
-
 }
