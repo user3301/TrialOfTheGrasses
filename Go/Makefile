@@ -20,4 +20,4 @@ test-clean:
 	
 .PHONY: lint
 lint:
-	golangci-lint run
+	golangci-lint run -v --timeout=1m

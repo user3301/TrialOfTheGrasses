@@ -176,11 +176,11 @@ linters:
   # don't enable:
   # - gochecknoglobals
   # - gocognit
-  # - godox
-  # - maligned
+    - godox
+    - maligned
   # - prealloc
   # - golint
-  # - stylecheck (more pain than it's worth)
+    - stylecheck (more pain than it's worth)
 
 issues:
   exclude-rules:

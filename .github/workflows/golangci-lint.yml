@@ -6,9 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions-contrib/golangci-lint@v1
+      - uses: actions/setup-go@v2
         with:
-          entrypoint: Go/
+          go-version: '^1.13.1' # The Go version to download (if necessary) and use.
+      - run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.25.0
+        working-directory: Go
+      - run: golangci-lint run -v ./...
+        working-directory: Go
         env:
           GO111MODULE: "on"
           GOFLAGS: "-mod=vendor"
