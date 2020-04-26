@@ -17,7 +17,7 @@ matrix:
       before_script:
         - cd Go
       script:
-        - go test ./...
+        - go test -v ./... --timeout=1m
         
 notifications:
   email:
