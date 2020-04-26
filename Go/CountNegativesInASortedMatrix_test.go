@@ -10,7 +10,7 @@ import (
 var input [][]int
 
 func TestMain(m *testing.M) {
-	defer os.Exit(1)
+	defer os.Exit(0)
 	input = [][]int{
 		{4, 3, 2, -1},
 		{3, 2, 1, -1},
