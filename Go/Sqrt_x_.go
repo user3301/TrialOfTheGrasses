@@ -9,11 +9,12 @@ func MySqrt(x int) int {
 
 	for l+1 < r {
 		mid := (l + r) >> 1
-		if mid*mid > x {
+		switch {
+		case mid*mid > x:
 			r = mid
-		} else if mid*mid < x {
+		case mid*mid < x:
 			l = mid
-		} else {
+		default:
 			return mid
 		}
 	}

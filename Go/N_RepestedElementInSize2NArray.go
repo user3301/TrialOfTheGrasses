@@ -1,10 +1,10 @@
 package Go
 
-func RepeatedNTimes(A []int) int {
+func RepeatedNTimes(a []int) int {
 	m := make(map[int]int)
 
-	n := len(A) / 2
-	for _, val := range A {
+	n := len(a) / 2
+	for _, val := range a {
 		if _, ok := m[val]; ok {
 			m[val]++
 			if m[val] >= n {

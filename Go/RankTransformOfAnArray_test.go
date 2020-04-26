@@ -1,9 +1,10 @@
 package Go
 
 import (
-	"gotest.tools/assert"
 	"reflect"
 	"testing"
+
+	"gotest.tools/assert"
 )
 
 func TestArrayRankTransform1(t *testing.T) {

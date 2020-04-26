@@ -1,8 +1,8 @@
 package Go
 
-func BackspaceCompare(S string, T string) bool {
-	srunes := []rune(S)
-	trunes := []rune(T)
+func BackspaceCompare(s string, t string) bool {
+	srunes := []rune(s)
+	trunes := []rune(t)
 	sback, tback, sr, tr := len(srunes)-1, len(trunes)-1, 0, 0
 
 	for sback >= 0 || tback >= 0 {

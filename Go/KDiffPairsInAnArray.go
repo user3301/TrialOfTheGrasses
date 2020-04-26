@@ -11,12 +11,12 @@ func FindPairs(nums []int, k int) int {
 
 		for l <= r {
 			mid := (l + r) >> 1
-			if nums[mid]-nums[i] == k {
+			switch {
+			case nums[mid]-nums[i] == k:
 				ans++
-				break
-			} else if nums[mid]-nums[i] > k {
+			case nums[mid]-nums[i] > k:
 				r = mid - 1
-			} else {
+			default:
 				l = mid + 1
 			}
 		}

@@ -1,8 +1,9 @@
 package Go
 
 import (
-	"gotest.tools/assert"
 	"testing"
+
+	"gotest.tools/assert"
 )
 
 func TestValidPalindromeII1(t *testing.T) {

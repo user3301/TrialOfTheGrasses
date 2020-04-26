@@ -18,17 +18,18 @@ func ThreeSumClosest(nums []int, target int) int {
 
 		for l < r {
 			sum := nums[i] + nums[l] + nums[r]
-			if sum > target {
+			switch {
+			case sum > target:
 				for r-1 > l && nums[r-1] == nums[r] {
 					r--
 				}
 				r--
-			} else if sum < target {
+			case sum < target:
 				for l+1 < r && nums[l] == nums[l+1] {
 					l++
 				}
 				l++
-			} else {
+			default:
 				return sum
 			}
 			if Abs(target-sum) < Abs(target-closeset) {
