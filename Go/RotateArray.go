@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 // method 1 make a new array and store the rotated result, T O(n) S O(n)
 func Rotate(nums []int, k int) {

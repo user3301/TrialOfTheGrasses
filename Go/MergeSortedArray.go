@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func Merge(nums1 []int, m int, nums2 []int, n int) {
 	sorted := m + n - 1

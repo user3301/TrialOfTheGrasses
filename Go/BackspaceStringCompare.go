@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func BackspaceCompare(s string, t string) bool {
 	srunes := []rune(s)

@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func TwoSumII(numbers []int, target int) []int {
 	left, right := 0, len(numbers)-1

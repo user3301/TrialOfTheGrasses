@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 // CountNegativesBF brute force solution O(n^2)
 // Loop through all elements and check them

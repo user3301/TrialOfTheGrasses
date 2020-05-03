@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func MaxArea(height []int) int {
 	ans, l, r := 0, 0, len(height)-1

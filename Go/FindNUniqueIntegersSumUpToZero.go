@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func SumZero(n int) []int {
 	if n == 1 {

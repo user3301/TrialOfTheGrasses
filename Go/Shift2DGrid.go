@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func Shift2DGrid(grid [][]int, k int) [][]int {
 	m := len(grid)

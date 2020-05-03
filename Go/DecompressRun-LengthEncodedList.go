@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func DecompressRLEList(nums []int) []int {
 	var ans []int

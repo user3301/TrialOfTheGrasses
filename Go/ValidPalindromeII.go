@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func ValidPalindromeII(s string) bool {
 	re := []rune(s)

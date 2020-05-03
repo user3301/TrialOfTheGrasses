@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func RemoveElement(nums []int, val int) int {
 	left, right := 0, 0

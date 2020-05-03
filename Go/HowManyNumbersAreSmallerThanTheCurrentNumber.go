@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 // brute force
 func SmallerNumbersThanCurrent(nums []int) []int {

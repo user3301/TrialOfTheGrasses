@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func MoveZeroes(nums []int) {
 	left, right := 0, 0

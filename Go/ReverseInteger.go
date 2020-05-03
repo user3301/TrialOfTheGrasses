@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func ReverseInteger(x int) int {
 	if x-int(int32(x)) > 0 {

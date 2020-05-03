@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func destCity(paths [][]string) string {
 	dist := make(map[string]string)

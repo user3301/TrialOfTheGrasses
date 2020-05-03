@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func ReverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {

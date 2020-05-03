@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func MergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {

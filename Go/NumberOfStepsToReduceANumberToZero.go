@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func NumberOfSteps(num int) int {
 	steps := 0

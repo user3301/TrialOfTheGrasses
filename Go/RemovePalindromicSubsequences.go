@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func RemovePalindromeSub(s string) int {
 	if len(s) == 0 {

@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func HasCycle(head *ListNode) bool {
 	if head == nil {

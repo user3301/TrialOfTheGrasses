@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func MajorityElement(nums []int) int {
 	maj, counter := nums[0], 1

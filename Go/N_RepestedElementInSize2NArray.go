@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func RepeatedNTimes(a []int) int {
 	m := make(map[int]int)
