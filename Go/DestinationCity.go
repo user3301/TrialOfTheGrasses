@@ -10,8 +10,7 @@ func destCity(paths [][]string) string {
 	start := paths[0][0]
 	for ok {
 		_, ok = dist[start]
-		if ok {
-		} else {
+		if !ok {
 			break
 		}
 		start = dist[start]
