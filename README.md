@@ -121,7 +121,9 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
-| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | `Medium` | Math | O(n) | O(1) |
+| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | Medium | `Math` | O(n) | O(1) |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Go](./Go/DestinationCity.go) | Easy | `Hashtable` | O(n) | O(n) |
+| 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
 
 ## Algorithms
 
@@ -238,6 +240,7 @@ Prefix-caching can solve many subarray related problems.
 | 1310 |[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [C#](CSharp/leetcodesln/XORQueriesOfASubarray.cs) [Go](Go/XORQueriesOfASubarray.go) | Medium | `Arrays` `Bit Manipulation` | O(n) | O(n) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Go](Go/DecompressRun-LengthEncodedList.go) | Easy | `Array` | O(n) | O(n) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
+| 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
 
 ### Stack
 
