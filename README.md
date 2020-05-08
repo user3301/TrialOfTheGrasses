@@ -34,6 +34,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
     - [Math](#math)
     - [Greedy](#greedy)
     - [Bit Manipulation](#bit-manipulation)
+    - [Deque](#deque)
 
 ## Questions list
 
@@ -126,6 +127,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | Medium | `Math` | O(n) | O(1) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Go](./Go/DestinationCity.go) | Easy | `Hashtable` | O(n) | O(n) |
 | 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
+| 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
 
 ## Algorithms
 
@@ -302,3 +304,8 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 |---|----|--------|--------|----|-----|------|
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C#](CSharp/leetcodesln/MinimumFilpsToMakeAORBEqualToC.cs) | Medium | `Bit Manipulation` | O(n) | O(1) |
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
+
+### Deque
+| # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
+|---|----|--------|--------|----|-----|------|
+| 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
