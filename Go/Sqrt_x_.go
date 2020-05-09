@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func MySqrt(x int) int {
 	if x == 0 {

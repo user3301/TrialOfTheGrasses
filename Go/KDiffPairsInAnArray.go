@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func FindPairs(nums []int, k int) int {
 	ans := 0

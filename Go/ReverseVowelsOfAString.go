@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func ReverseVowels(s string) string {
 	srune := []rune(s)

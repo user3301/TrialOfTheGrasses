@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func LengthOfLongestSubstring(s string) int {
 	var ans int

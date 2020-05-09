@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func KWeakestRows(mat [][]int, k int) []int {
 	bucket := make([][]int, len(mat[0])+1)

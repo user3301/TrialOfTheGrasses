@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func CheckIfExist(arr []int) bool {
 	seen := map[int]bool{}

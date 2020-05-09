@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func RemoveDuplicates(nums []int) int {
 	n := len(nums)

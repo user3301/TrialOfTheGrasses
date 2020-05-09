@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func Max(a int, b int) int {
 	if a > b {

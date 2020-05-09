@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func GroupThePeople(groupSizes []int) [][]int {
 	ans := make([][]int, 0)

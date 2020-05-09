@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 import (
 	"os"

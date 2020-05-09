@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func XorQueries(arr []int, queries [][]int) []int {
 	ans := make([]int, len(queries))

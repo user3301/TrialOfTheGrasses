@@ -8,6 +8,8 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 [![Build Status](https://travis-ci.org/user3301/TrialOfTheGrasses.svg?branch=master)](https://travis-ci.org/user3301/TrialOfTheGrasses)
 [![solved/total](https://leetcode-badge.chyroc.cn/?name=user3301)](https://leetcode.com/user3301/)
 [![Language](https://img.shields.io/badge/language-csharp-green.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Language](https://img.shields.io/badge/Language-Go-brightgreen)](https://golang.org/)
+[![Language](https://img.shields.io/badge/Language-Java-brightgreen)](https://www.java.com/en/download/)
 [![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg)](https://github.com/user3301/leetcodecsln/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -32,6 +34,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
     - [Math](#math)
     - [Greedy](#greedy)
     - [Bit Manipulation](#bit-manipulation)
+    - [Deque](#deque)
 
 ## Questions list
 
@@ -121,7 +124,10 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
-| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | `Medium` | Math | O(n) | O(1) |
+| 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | Medium | `Math` | O(n) | O(1) |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Go](./Go/DestinationCity.go) | Easy | `Hashtable` | O(n) | O(n) |
+| 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
+| 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
 
 ## Algorithms
 
@@ -238,6 +244,7 @@ Prefix-caching can solve many subarray related problems.
 | 1310 |[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [C#](CSharp/leetcodesln/XORQueriesOfASubarray.cs) [Go](Go/XORQueriesOfASubarray.go) | Medium | `Arrays` `Bit Manipulation` | O(n) | O(n) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Go](Go/DecompressRun-LengthEncodedList.go) | Easy | `Array` | O(n) | O(n) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
+| 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
 
 ### Stack
 
@@ -263,6 +270,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | [C#](CSharp/leetcodesln/GroupThePeopleGivenTheGroupSizeTheyBelongTo.cs) | Medium | `Greedy` `Hashtable` | O(n) | O(n) |
 | 1331 | :star:[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Go](Go/RankTransformOfAnArray.go) | Easy | `HashTable` | O(n) | O(n) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Go](Go/CheckIfNAndItsDoubleExist.go) | Easy | `HashSet` | O(n) | O(n) |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Go](./Go/DestinationCity.go) | Easy | `Hashtable` | O(n) | O(n) |
 
 ### Dynamic Programming
 
@@ -296,3 +304,8 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 |---|----|--------|--------|----|-----|------|
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C#](CSharp/leetcodesln/MinimumFilpsToMakeAORBEqualToC.cs) | Medium | `Bit Manipulation` | O(n) | O(1) |
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
+
+### Deque
+| # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
+|---|----|--------|--------|----|-----|------|
+| 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |

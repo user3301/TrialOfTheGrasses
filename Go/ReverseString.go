@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func ReverseString(s []byte) {
 	left, right := 0, len(s)-1

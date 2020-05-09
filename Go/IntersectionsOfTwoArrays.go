@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func Intersection(nums1 []int, nums2 []int) []int {
 	var ans []int

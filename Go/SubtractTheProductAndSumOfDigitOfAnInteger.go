@@ -1,4 +1,4 @@
-package Go
+package gosoln
 
 func SubtractProductAndSum(n int) int {
 	sum, prod := 0, 1
