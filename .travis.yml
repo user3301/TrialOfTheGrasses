@@ -18,7 +18,13 @@ matrix:
         - cd Go
       script:
         - go test -v ./... --timeout=1m
-        
+
+    - language: java
+      before_script:
+        - cd Java
+      script:
+        - mvn test
+
 notifications:
   email:
     recipients:
