@@ -128,6 +128,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Go](./Go/DestinationCity.go) | Easy | `Hashtable` | O(n) | O(n) |
 | 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
 | 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
+| 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | [Go](./Go/MinimumTimeToCollectAllApplesInATree.go) | Medium | `DFS` :question: | O(n) | O(n) |
 
 ## Algorithms
 
