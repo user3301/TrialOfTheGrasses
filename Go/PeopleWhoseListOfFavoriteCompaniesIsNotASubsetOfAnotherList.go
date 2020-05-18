@@ -3,10 +3,10 @@ package gosoln
 func PeopleIndexes(favoriteCompanies [][]string) []int {
 	ans := make([]int, 0)
 
-	sets := make(map[int]map[string]bool, 0)
+	sets := make(map[int]map[string]bool)
 
 	for _, f := range favoriteCompanies {
-		m := make(map[string]bool, 0)
+		m := make(map[string]bool)
 		for _, v := range f {
 			m[v] = true
 		}
@@ -33,7 +33,7 @@ func PeopleIndexes(favoriteCompanies [][]string) []int {
 
 func subset(d1 []string, d2 map[string]bool) bool {
 	for _, v := range d1 {
-		if exist, _ := d2[v]; !exist {
+		if _, exist := d2[v]; !exist {
 			return false
 		}
 	}

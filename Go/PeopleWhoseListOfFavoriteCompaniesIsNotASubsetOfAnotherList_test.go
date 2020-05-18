@@ -1,7 +1,26 @@
 package gosoln
 
-import "testing"
+import (
+	"testing"
 
-func TestPeopleIndexes(t *testing.T) {
-	favoriteCompanies := []string{[["nxaqhyoprhlhvhyojanr","ovqdyfqmlpxapbjwtssm","qmsbphxzmnvflrwyvxlc","udfuxjdxkxwqnqvgjjsp","yawoixzhsdkaaauramvg","zycidpyopumzgdpamnty"],["nxaqhyoprhlhvhyojanr","ovqdyfqmlpxapbjwtssm","udfuxjdxkxwqnqvgjjsp","yawoixzhsdkaaauramvg","zycidpyopumzgdpamnty"],["ovqdyfqmlpxapbjwtssm","qmsbphxzmnvflrwyvxlc","udfuxjdxkxwqnqvgjjsp","yawoixzhsdkaaauramvg","zycidpyopumzgdpamnty"]]}
+	"gotest.tools/assert"
+)
+
+func TestPeopleIndexes1(t *testing.T) {
+	favoriteCompanies := [][]string{{"leetcode", "google", "facebook"},
+		{"google", "microsoft"},
+		{"google", "facebook"},
+		{"google"},
+		{"amazon"},
+	}
+	expected := []int{0, 1, 4}
+	actual := PeopleIndexes(favoriteCompanies)
+	assert.DeepEqual(t, expected, actual)
+}
+
+func TestPeopleIndexes2(t *testing.T) {
+	favoriteCompanies := [][]string{}
+	expected := []int{0}
+	actual := PeopleIndexes(favoriteCompanies)
+	assert.DeepEqual(t, expected, actual)
 }
