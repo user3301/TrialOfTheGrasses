@@ -2,40 +2,45 @@ package gosoln
 
 func PeopleIndexes(favoriteCompanies [][]string) []int {
 	ans := make([]int, 0)
-
-	sets := make(map[int]map[string]bool)
-
-	for _, f := range favoriteCompanies {
-		m := make(map[string]bool)
-		for _, v := range f {
-			m[v] = true
+	dist := make(map[int][]map[string]int)
+	for _, v := range favoriteCompanies {
+		// v - []string
+		m := make(map[string]int)
+		for _, val := range v {
+			// val - company name str
+			m[val]++
 		}
-		sets[len(f)] = m
+		dist[len(v)] = append(dist[len(v)], m)
 	}
-
-	for i := 0; i < len(favoriteCompanies); i++ {
-		f := 0
-		for _, a := range sets {
-			if len(favoriteCompanies[i]) > len(a) {
-				continue
-			} else {
-				if subset(favoriteCompanies[i], a) {
-					f++
-				}
-			}
-		}
-		if f < 2 {
-			ans = append(ans, i)
+	for k, v := range favoriteCompanies {
+		if subset(v, dist) {
+			ans = append(ans, k)
 		}
 	}
 	return ans
 }
 
-func subset(d1 []string, d2 map[string]bool) bool {
-	for _, v := range d1 {
-		if _, exist := d2[v]; !exist {
-			return false
+func subset(d1 []string, d2 map[int][]map[string]int) bool {
+	ans := 0
+	for k, v := range d2 {
+		if k >= len(d1) {
+			for _, m := range v {
+				sub := true
+				for _, s := range d1 {
+					if _, exist := m[s]; !exist {
+						sub = false
+						break
+					}
+				}
+				if sub {
+					ans++
+				}
+			}
 		}
 	}
-	return true
+	if ans >= 2 {
+		return false
+	} else {
+		return true
+	}
 }

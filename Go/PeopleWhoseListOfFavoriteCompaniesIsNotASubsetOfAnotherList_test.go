@@ -19,8 +19,12 @@ func TestPeopleIndexes1(t *testing.T) {
 }
 
 func TestPeopleIndexes2(t *testing.T) {
-	favoriteCompanies := [][]string{}
-	expected := []int{0}
+	favoriteCompanies := [][]string{
+		{"leetcode", "google", "facebook"},
+		{"leetcode", "amazon"},
+		{"facebook", "google"},
+	}
+	expected := []int{0, 1}
 	actual := PeopleIndexes(favoriteCompanies)
 	assert.DeepEqual(t, expected, actual)
 }
