@@ -1,6 +1,8 @@
 package gosoln
 
-func HasCycle(head *ListNode) bool {
+import "github.com/leetcode/types"
+
+func HasCycle(head *types.ListNode) bool {
 	if head == nil {
 		return false
 	}

@@ -1,6 +1,8 @@
 package gosoln
 
-func MergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+import "github.com/leetcode/types"
+
+func MergeTwoLists(l1 *types.ListNode, l2 *types.ListNode) *types.ListNode {
 	if l1 == nil {
 		return l2
 	}

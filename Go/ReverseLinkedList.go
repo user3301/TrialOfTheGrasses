@@ -1,6 +1,8 @@
 package gosoln
 
-func ReverseList(head *ListNode) *ListNode {
+import "github.com/leetcode/types"
+
+func ReverseList(head *types.ListNode) *types.ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}

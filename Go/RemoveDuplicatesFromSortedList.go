@@ -1,6 +1,8 @@
 package gosoln
 
-func DeleteDuplicates(head *ListNode) *ListNode {
+import "github.com/leetcode/types"
+
+func DeleteDuplicates(head *types.ListNode) *types.ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
