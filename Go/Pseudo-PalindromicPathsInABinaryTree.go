@@ -2,49 +2,69 @@ package gosoln
 
 import . "github.com/leetcode/types"
 
+type TreeItem struct {
+	Vals []int
+	Node *TreeNode
+}
+
 func PseudopalindromicPaths(root *TreeNode) int {
 	ans := 0
-	paths := new([][]int)
-	if root != nil {
-		searchBT(root, []int{}, paths)
+	stack := make([]*TreeItem, 0)
+	var vals []int
+	vals = append(vals, root.Val)
+	item := &TreeItem{
+		Vals: vals,
+		Node: root,
 	}
-	for _, v := range *paths {
-		if isPseudoPalindrome(v) {
-			ans++
+	stack = append(stack, item)
+
+	for len(stack) != 0 {
+		size := len(stack)
+		for i := 0; i < size; i++ {
+			n := len(stack) - 1
+			current := stack[n]
+			stack = stack[:n]
+			// is leaf
+			if current.Node.Left == nil && current.Node.Right == nil {
+				if isPalindromeList(current.Vals) {
+					ans++
+				}
+			}
+			if current.Node.Left != nil {
+				vals := append(current.Vals, current.Node.Left.Val)
+				item := &TreeItem{
+					Vals: vals,
+					Node: current.Node.Left,
+				}
+				stack = append(stack, item)
+			}
+			if current.Node.Right != nil {
+				vals := append(current.Vals, current.Node.Right.Val)
+				item := &TreeItem{
+					Vals: vals,
+					Node: current.Node.Right,
+				}
+				stack = append(stack, item)
+			}
 		}
 	}
 	return ans
 }
 
-func searchBT(node *TreeNode, nums []int, paths *[][]int) {
-	if node.Left == nil && node.Right == nil {
-		nums = append(nums, node.Val)
-		*paths = append(*paths, nums)
-	}
-	if node.Left != nil {
-		nums = append(nums, node.Val)
-		searchBT(node.Left, nums, paths)
-	}
-	if node.Right != nil {
-		nums = append(nums, node.Val)
-		searchBT(node.Right, nums, paths)
-	}
-}
-
-func isPseudoPalindrome(ints []int) bool {
+func isPalindromeList(vals []int) bool {
 	dist := make(map[int]int)
-	for i := 0; i < len(ints); i++ {
-		dist[ints[i]]++
+	seenOdd := false
+	for _, v := range vals {
+		dist[v]++
 	}
-	odd := 0
-	for _, v := range dist {
-		if v%2 != 0 {
-			odd++
+	for _, d := range dist {
+		if d%2 != 0 {
+			if seenOdd {
+				return false
+			} else {
+				seenOdd = true
+			}
 		}
 	}
-	if odd%2 != 0 || odd == 0 {
-		return true
-	} else {
-		return false
-	}
+	return true
 }
