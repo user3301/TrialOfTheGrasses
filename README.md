@@ -314,6 +314,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 
 ### Deque
+
 | # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
 |---|----|--------|--------|----|-----|------|
 | 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
