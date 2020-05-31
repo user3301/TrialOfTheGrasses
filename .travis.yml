@@ -14,6 +14,11 @@ matrix:
         - dotnet test leetcodesln_test/leetcodesln_test.csproj
 
     - language: go
+      go:
+      - 1.13.x
+#      env:
+#        - GO111MODULE=on
+#        - GOFLAGS=-mod=vendor
       before_script:
         - cd Go
       script:
