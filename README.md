@@ -132,6 +132,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1450 | :white_check_mark:[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Go](./Go/NumberOfStudentsDoingHomeworkAtAGivenTime.go) | Easy | `Array` | O(n) | O(1) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Go](./Go/MaximumNumberOfVowelsInASubstringOfGivenLength.go) | Medium | `Sliding Window` | O(n) | O(1) |
+| 1457 | :star:[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Go](./Go/Pseudo-PalindromicPathsInABinaryTree.go) | Medium | `Stack` `DFS` `Bitmap` | O(n) | O(n) |
 
 ## Algorithms
 
