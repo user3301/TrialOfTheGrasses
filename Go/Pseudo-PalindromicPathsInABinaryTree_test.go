@@ -33,10 +33,6 @@ func TestPseudopalindromicPaths1(t *testing.T) {
 	assert.Equal(t, expected, actual)
 }
 
-func TestPseudopalindromicPaths(t *testing.T) {
-	t.FailNow()
-}
-
 func TestIsPalindrome1(t *testing.T) {
 	s := []int{2, 3, 3}
 	expected := true
@@ -59,7 +55,7 @@ func TestIsPalindrome3(t *testing.T) {
 }
 
 func TestIsPalindrome4(t *testing.T) {
-	s := []int{2, 2, 2, 1, 1, 3, 3, 3, 1, 1, 2}
+	s := []int{9, 5, 5, 5, 1, 1, 9, 5}
 	expected := true
 	actual := isPalindromeList(s)
 	assert.Equal(t, expected, actual)
