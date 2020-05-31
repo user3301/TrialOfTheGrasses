@@ -15,7 +15,7 @@ matrix:
 
     - language: go
       env:
-        - GO111MODULE=on
+        - GO111MODULE=auto
       before_script:
         - cd Go
       script:
