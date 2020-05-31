@@ -1,13 +1,11 @@
 package gosoln
 
-import types "github.com/leetcode/types"
-
 type TreeItem struct {
 	Bitmap int
-	Node   *types.TreeNode
+	Node   *TreeNode
 }
 
-func PseudopalindromicPaths(root *types.TreeNode) int {
+func PseudopalindromicPaths(root *TreeNode) int {
 	ans := 0
 	bit := 0
 	bit ^= 1 << root.Val

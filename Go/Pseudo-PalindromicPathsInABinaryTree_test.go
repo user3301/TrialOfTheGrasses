@@ -3,29 +3,27 @@ package gosoln
 import (
 	"testing"
 
-	"github.com/leetcode/types"
-
 	"gotest.tools/assert"
 )
 
 func TestPseudopalindromicPaths1(t *testing.T) {
-	root := types.TreeNode{Left: &types.TreeNode{
+	root := TreeNode{Left: &TreeNode{
 		Val: 3,
-		Left: &types.TreeNode{
+		Left: &TreeNode{
 			Val:   3,
 			Left:  nil,
 			Right: nil,
 		},
-		Right: &types.TreeNode{
+		Right: &TreeNode{
 			Val:   1,
 			Left:  nil,
 			Right: nil,
 		},
 	},
-		Right: &types.TreeNode{
+		Right: &TreeNode{
 			Val:   1,
 			Left:  nil,
-			Right: &types.TreeNode{Left: nil, Right: nil, Val: 1},
+			Right: &TreeNode{Left: nil, Right: nil, Val: 1},
 		},
 		Val: 2}
 	expected := 2

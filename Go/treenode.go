@@ -1,4 +1,4 @@
-package types
+package gosoln
 
 type TreeNode struct {
 	Val   int

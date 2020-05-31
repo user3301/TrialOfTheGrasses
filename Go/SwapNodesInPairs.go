@@ -1,8 +1,6 @@
 package gosoln
 
-import "github.com/leetcode/types"
-
-func SwapPairs(head *types.ListNode) *types.ListNode {
+func SwapPairs(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
