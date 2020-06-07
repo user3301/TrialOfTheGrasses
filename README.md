@@ -130,6 +130,8 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | [Go](./Go/MinimumTimeToCollectAllApplesInATree.go) | Medium | `DFS` :question: | O(n) | O(n) |
 | 1450 | :white_check_mark:[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Go](./Go/NumberOfStudentsDoingHomeworkAtAGivenTime.go) | Easy | `Array` | O(n) | O(1) |
+| 1464 | [Maximun Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Go](.Go/../Go/MaximumProductOfTwoElementsInAnArray.go) | Easy | `Array` | O(n) | O(1) |
+| 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Go](./Go/MaximumNumberOfVowelsInASubstringOfGivenLength.go) | Medium | `Sliding Window` | O(n) | O(1) |
 | 1457 | :star:[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Go](./Go/Pseudo-PalindromicPathsInABinaryTree.go) | Medium | `Stack` `DFS` `Bitmap` | O(n) | O(n) |
@@ -253,6 +255,8 @@ Prefix-caching can solve many subarray related problems.
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Go](Go/CountNegativeNumbersInASortedMatrix.go) | Easy | `Arrays` `Binary Search` :question: | O(n^2) O(m+n) | O(1) |
 | 1437 | [Check If All 1's Are at Least Length K Place Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Go](./Go/CheckIfAll1sAreAtLeastLengthKPlaceAway.go) | Medium | `Array` | O(n) | O(n) |
 | 1450 | :white_check_mark:[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Go](./Go/NumberOfStudentsDoingHomeworkAtAGivenTime.go) | Easy | `Array` | O(n) | O(1) |
+| 1464 | [Maximun Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Go](.Go/../Go/MaximumProductOfTwoElementsInAnArray.go) | Easy | `Array` | O(n) | O(1) |
+| 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
 
 ### Stack
 
