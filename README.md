@@ -132,6 +132,9 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1450 | :white_check_mark:[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Go](./Go/NumberOfStudentsDoingHomeworkAtAGivenTime.go) | Easy | `Array` | O(n) | O(1) |
 | 1464 | [Maximun Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Go](.Go/../Go/MaximumProductOfTwoElementsInAnArray.go) | Easy | `Array` | O(n) | O(1) |
 | 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Go](./Go/MaximumNumberOfVowelsInASubstringOfGivenLength.go) | Medium | `Sliding Window` | O(n) | O(1) |
+| 1457 | :star:[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Go](./Go/Pseudo-PalindromicPathsInABinaryTree.go) | Medium | `Stack` `DFS` `Bitmap` | O(n) | O(n) |
 
 ## Algorithms
 
@@ -183,6 +186,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 986 | :star:[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [C#](./CSharp/leetcodesln/IntervalListIntersections.cs) | Medium | `Two Pointers` | O(n) | O(n) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C#](./CSharp/leetcodesln/MaxConsecutiveOnesIII.cs) | Medium | `Sliding Window` | O(n) | O(1) |
 | 1200 | :white_check_mark:[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [C#](./CSharp/leetcodesln/MinimumAbsoluteDifference.cs) | Easy | `Two Pointers` | O(nlogn + n) | O(1) |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Go](./Go/MaximumNumberOfVowelsInASubstringOfGivenLength.go) | Medium | `Sliding Window` | O(n) | O(1) |
 
 ### Binary Search
 
@@ -213,6 +217,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [C#](./CSharp/leetcodesln/DecryptStringFromAlphabetToIntegerMapping.cs) [Go](Go/DecryptStringFromAlphabetToIntegerMapping.go) | Easy | `Strings` | O(n) | O(n) |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
 
 ### Linked List
 
@@ -313,6 +318,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | 1342 | [Number Of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Go](Go/NumberOfStepsToReduceANumberToZero.go) | Easy | `Bit Manipulation` | ? | ? |
 
 ### Deque
+
 | # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
 |---|----|--------|--------|----|-----|------|
 | 1438 | :star:[Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Go](./Go/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.go) | Medium | `Deque` | O(n) | O(n) |
