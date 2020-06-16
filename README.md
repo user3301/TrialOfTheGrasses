@@ -135,6 +135,9 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Go](./Go/MaximumNumberOfVowelsInASubstringOfGivenLength.go) | Medium | `Sliding Window` | O(n) | O(1) |
 | 1457 | :star:[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Go](./Go/Pseudo-PalindromicPathsInABinaryTree.go) | Medium | `Stack` `DFS` `Bitmap` | O(n) | O(n) |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
+| 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | [Go](./Go/LeastNumberOfUniqueIntegersAfterKRemovals.go) | Medium | `Array` `Sortings` | O(nlogn+n) | O(n) |
+| 1482 | :star:[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Go](./Go/MinimumNumberOfDaysToMakeMBouquets.go) | Medium | `Binary Search` | O(nlogn) | O(1) |
 
 ## Algorithms
 
@@ -197,6 +200,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C#](./CSharp/leetcodesln/SearchInsertPosition.cs) | Medium | `Binary Search` | O(logn) | O(1) |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [C#](./CSharp/leetcodesln/PowX_N.cs) | Medium | `Binary Search`, `Recursion` | O(logn) | O(1) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [C#](./CSharp/leetcodesln/Sqrt(x).cs) [Go](Go/Sqrt_x_.go)| Easy | `Binary Search` | O(logn) | O(1) |
+| 1482 | :star:[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Go](./Go/MinimumNumberOfDaysToMakeMBouquets.go) | Medium | `Binary Search` | O(nlogn) | O(1) |
 
 ### Sortings
 
@@ -206,6 +210,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C#](./CSharp/leetcodesln/TopKFrequentElements.cs) | Medium | `Bucket Sort` | O(n) | O(n) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C#](./CSharp/leetcodesln/SortCharactersByFrequency.cs) | Medium | `Bucket Sort` | O(n) | O(n) |
 | 1337 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Go](Go/TheKWeakestRowsInAMatrix.go) | Easy | `Bucket Sort` | O(n) | O(n) |
+| 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | [Go](./Go/LeastNumberOfUniqueIntegersAfterKRemovals.go) | Medium | `Array` `Sortings` | O(nlogn+n) | O(n) |
 
 ### Strings
 
@@ -257,6 +262,7 @@ Prefix-caching can solve many subarray related problems.
 | 1450 | :white_check_mark:[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Go](./Go/NumberOfStudentsDoingHomeworkAtAGivenTime.go) | Easy | `Array` | O(n) | O(1) |
 | 1464 | [Maximun Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Go](.Go/../Go/MaximumProductOfTwoElementsInAnArray.go) | Easy | `Array` | O(n) | O(1) |
 | 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
 
 ### Stack
 

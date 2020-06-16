@@ -6,7 +6,5 @@ func RunningSum(nums []int) []int {
 	for i := 1; i < len(dp); i++ {
 		dp[i] = dp[i-1] + nums[i-1]
 	}
-	ans := make([]int, len(nums))
-	copy(ans, dp[1:])
-	return ans
+	return dp[1:]
 }
