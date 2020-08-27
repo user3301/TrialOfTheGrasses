@@ -138,6 +138,8 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | [Go](./Go/LeastNumberOfUniqueIntegersAfterKRemovals.go) | Medium | `Array` `Sortings` | O(nlogn+n) | O(n) |
 | 1482 | :star:[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Go](./Go/MinimumNumberOfDaysToMakeMBouquets.go) | Medium | `Binary Search` | O(nlogn) | O(1) |
+| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | [Go](./Go/PathCrossing.go) | Easy | `String` | O(n) | O(n) | 
+| 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
 
 ## Algorithms
 
@@ -223,6 +225,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Go](Go/RemovePalindromicSubsequences.go) | Easy | `Strings` | O(n) | O(1) |
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Go](Go/NumberOfDaysBetweenTwoDates.go) | `Easy` | `String` | O(n) | O(1) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Go](./Go/CheckIfAWordOccursAsAPrefixOfAnyWordInASentence.go) | Easy | `String` | O(n) | O(n) |
+| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | [Go](./Go/PathCrossing.go) | Easy | `String` | O(n) | O(n) | 
 
 ### Linked List
 
@@ -263,6 +266,7 @@ Prefix-caching can solve many subarray related problems.
 | 1464 | [Maximun Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Go](.Go/../Go/MaximumProductOfTwoElementsInAnArray.go) | Easy | `Array` | O(n) | O(1) |
 | 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
+| 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
 
 ### Stack
 
@@ -309,6 +313,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [C#](CSharp/leetcodesln/SubtractTheProductAndSumOfDigitOfAnInteger.cs) [Go](Go/SubtractTheProductAndSumOfDigitOfAnInteger.go) | Easy | `Math` | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C#](CSharp/leetcodesln/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.cs) [Go](Go/ConvertIntegerToTheSumOfTwoNo-ZeroIntegers.go) | Easy | `Math` | O(n) | O(1) |
 | 1362 | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Go](Go/ClosestDivisors.go) | `Medium` | Math | O(n) | O(1) |
+| 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
 
 ### Greedy
 
