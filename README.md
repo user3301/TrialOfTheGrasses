@@ -140,6 +140,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1482 | :star:[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Go](./Go/MinimumNumberOfDaysToMakeMBouquets.go) | Medium | `Binary Search` | O(nlogn) | O(1) |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | [Go](./Go/PathCrossing.go) | Easy | `String` | O(n) | O(n) | 
 | 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
+| 1502| [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Go](.Go/CanMakeArithmetricProgressionFromSequence.go) | Easy | `Array` `Sort` |  O(nlogn) O(n) (optimized) | O(n) | 
 
 ## Algorithms
 
@@ -213,6 +214,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C#](./CSharp/leetcodesln/SortCharactersByFrequency.cs) | Medium | `Bucket Sort` | O(n) | O(n) |
 | 1337 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Go](Go/TheKWeakestRowsInAMatrix.go) | Easy | `Bucket Sort` | O(n) | O(n) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | [Go](./Go/LeastNumberOfUniqueIntegersAfterKRemovals.go) | Medium | `Array` `Sortings` | O(nlogn+n) | O(n) |
+| 1502| [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Go](.Go/CanMakeArithmetricProgressionFromSequence.go) | Easy | `Array` `Sort` |  O(nlogn) O(n) (optimized) | O(n) | 
 
 ### Strings
 
@@ -267,6 +269,7 @@ Prefix-caching can solve many subarray related problems.
 | 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
 | 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
+| 1502| [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Go](.Go/CanMakeArithmetricProgressionFromSequence.go) | Easy | `Array` `Sort` |  O(nlogn) O(n) (optimized) | O(n) | 
 
 ### Stack
 
