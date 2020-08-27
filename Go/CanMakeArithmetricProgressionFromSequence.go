@@ -1,7 +1,12 @@
 package gosoln
 
-import "sort"
+import (
+	"sort"
 
+	"github.com/leetcode/pkg"
+)
+
+// time complexity O(nlogn)
 func CanMakeArithmeticProgression(arr []int) bool {
 	sort.Ints(arr)
 	if len(arr) <= 1 {
@@ -13,6 +18,34 @@ func CanMakeArithmeticProgression(arr []int) bool {
 		if arr[i]-arr[i-1] != diff {
 			return false
 		}
+	}
+	return true
+}
+
+// O(n) optimized solution  see https://en.wikipedia.org/wiki/Arithmetic_progression
+func canMakeArithmeticProgression(arr []int) bool {
+	set := make(map[int]void)
+	maxUint := ^uint(0)
+	min := int(maxUint >> 1)
+	max := -min - 1
+
+	// find max and min in arr
+	for _, v := range arr {
+		max = pkg.MaxInt(max, v)
+		min = pkg.MinInt(min, v)
+		set[v] = struct{}{}
+	}
+	gap := (max - min) / (len(arr) - 1)
+	if gap == 0 {
+		return true
+	}
+	i := 0
+	for i < len(arr) {
+		if _, exist := set[min]; !exist {
+			return false
+		}
+		min += gap
+		i++
 	}
 	return true
 }

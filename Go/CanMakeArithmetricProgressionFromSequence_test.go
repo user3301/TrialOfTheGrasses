@@ -19,3 +19,10 @@ func TestCanMakeArithmeticProgression2(t *testing.T) {
 	actual := CanMakeArithmeticProgression(arr)
 	assert.Equal(t, expected, actual)
 }
+
+func TestCanMakeArithmeticProgression(t *testing.T) {
+	arr := []int{3, 5, 1}
+	expected := true
+	actual := canMakeArithmeticProgression(arr)
+	assert.Equal(t, expected, actual)
+}
