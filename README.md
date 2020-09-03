@@ -140,6 +140,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 1482 | :star:[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Go](./Go/MinimumNumberOfDaysToMakeMBouquets.go) | Medium | `Binary Search` | O(nlogn) | O(1) |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | [Go](./Go/PathCrossing.go) | Easy | `String` | O(n) | O(n) | 
 | 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
+| 1566 | [Detect Pattner of Length M Repected K Or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) | [Go](./Go/DetectPatternOfLengthMRepectedKOrMoreTimes.go) | Easy | `Array` | O(n) | O(1) |
 
 ## Algorithms
 
@@ -267,6 +268,7 @@ Prefix-caching can solve many subarray related problems.
 | 1465 | [MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | [Go](./go/../Go/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.go) | Medium | `Array` | O(nlogn+ n) | O(1) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Go](./Go/RunningSumOf1DArray.go) | Easy | `Array` `Prefix Sum` | O(n) | O(n) |
 | 1497 | :star:[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Go](./Go/CheckIfArrayPairsAreDivisibleByK.go) | Medium | `Array` `Math` | O(n) | O(n) | 
+| 1566 | [Detect Pattner of Length M Repected K Or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) | [Go](./Go/DetectPatternOfLengthMRepectedKOrMoreTimes.go) | Easy | `Array` | O(n) | O(1) |
 
 ### Stack
 
