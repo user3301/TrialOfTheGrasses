@@ -3,6 +3,8 @@ package gosoln
 import (
 	"sort"
 
+	"github.com/leetcode/pkg/types"
+
 	"github.com/leetcode/pkg"
 )
 
@@ -24,7 +26,7 @@ func CanMakeArithmeticProgression(arr []int) bool {
 
 // O(n) optimized solution  see https://en.wikipedia.org/wiki/Arithmetic_progression
 func canMakeArithmeticProgression(arr []int) bool {
-	set := make(map[int]void)
+	set := make(map[int]types.Void)
 	maxUint := ^uint(0)
 	min := int(maxUint >> 1)
 	max := -min - 1
