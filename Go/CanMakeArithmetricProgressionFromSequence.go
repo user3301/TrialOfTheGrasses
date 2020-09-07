@@ -3,9 +3,9 @@ package gosoln
 import (
 	"sort"
 
-	"github.com/leetcode/pkg/types"
+	"github.com/leetcode/pkg/utils"
 
-	"github.com/leetcode/pkg"
+	"github.com/leetcode/pkg/types"
 )
 
 // time complexity O(nlogn)
@@ -33,8 +33,8 @@ func canMakeArithmeticProgression(arr []int) bool {
 
 	// find max and min in arr
 	for _, v := range arr {
-		max = pkg.MaxInt(max, v)
-		min = pkg.MinInt(min, v)
+		max = utils.MaxInt(max, v)
+		min = utils.MinInt(min, v)
 		set[v] = struct{}{}
 	}
 	gap := (max - min) / (len(arr) - 1)
