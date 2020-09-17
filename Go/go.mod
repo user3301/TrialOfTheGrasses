@@ -1,4 +1,4 @@
-module github.com/user3301/trialofthegrasses/Go
+module github.com/user3301/TrialOfTheGrasses/Go
 
 go 1.13
 

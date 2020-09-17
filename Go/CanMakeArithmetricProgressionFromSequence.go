@@ -1,10 +1,8 @@
 package gosoln
 
 import (
-	"github.com/user3301/trialofthegrasses/Go/pkg/types"
-	"github.com/user3301/trialofthegrasses/Go/pkg/utils"
+	"github.com/user3301/TrialOfTheGrasses/Go/pkg/utils"
 	"sort"
-
 )
 
 // time complexity O(nlogn)
@@ -25,7 +23,7 @@ func CanMakeArithmeticProgression(arr []int) bool {
 
 // O(n) optimized solution  see https://en.wikipedia.org/wiki/Arithmetic_progression
 func canMakeArithmeticProgression(arr []int) bool {
-	set := make(map[int]types.Void)
+	set := make(map[int]void)
 	maxUint := ^uint(0)
 	min := int(maxUint >> 1)
 	max := -min - 1
