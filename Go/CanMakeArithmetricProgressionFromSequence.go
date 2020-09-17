@@ -1,9 +1,8 @@
 package gosoln
 
 import (
+	"github.com/user3301/TrialOfTheGrasses/Go/pkg/utils"
 	"sort"
-
-	"github.com/leetcode/pkg"
 )
 
 // time complexity O(nlogn)
@@ -31,8 +30,8 @@ func canMakeArithmeticProgression(arr []int) bool {
 
 	// find max and min in arr
 	for _, v := range arr {
-		max = pkg.MaxInt(max, v)
-		min = pkg.MinInt(min, v)
+		max = utils.MaxInt(max, v)
+		min = utils.MinInt(min, v)
 		set[v] = struct{}{}
 	}
 	gap := (max - min) / (len(arr) - 1)

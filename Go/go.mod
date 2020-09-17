@@ -1,4 +1,4 @@
-module github.com/leetcode
+module github.com/user3301/TrialOfTheGrasses/Go
 
 go 1.13
 
