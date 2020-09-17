@@ -1,4 +1,4 @@
-module github.com/leetcode
+module github.com/user3301/trialofthegrasses
 
 go 1.13
 

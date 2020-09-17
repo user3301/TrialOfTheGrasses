@@ -3,9 +3,8 @@ package gosoln
 import (
 	"sort"
 
-	"github.com/leetcode/pkg/utils"
-
-	"github.com/leetcode/pkg/types"
+	"github.com/user3301/trialofthegrasses/pkg/types"
+	"github.com/user3301/trialofthegrasses/pkg/utils"
 )
 
 // time complexity O(nlogn)
