@@ -1,4 +1,4 @@
-module github.com/user3301/trialofthegrasses
+module github.com/user3301/trialofthegrasses/Go
 
 go 1.13
 

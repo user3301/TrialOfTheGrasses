@@ -1,10 +1,10 @@
 package gosoln
 
 import (
+	"github.com/user3301/trialofthegrasses/Go/pkg/types"
+	"github.com/user3301/trialofthegrasses/Go/pkg/utils"
 	"sort"
 
-	"github.com/user3301/trialofthegrasses/pkg/types"
-	"github.com/user3301/trialofthegrasses/pkg/utils"
 )
 
 // time complexity O(nlogn)
