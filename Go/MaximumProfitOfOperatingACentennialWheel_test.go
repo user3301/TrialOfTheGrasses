@@ -14,13 +14,13 @@ func TestMinOperationsMaxProfit1(t *testing.T) {
 		boardingCost, runningCost int
 		want                      int
 	}{
-		//{
-		//	name:         "test1",
-		//	customers:    []int{10, 10, 6, 4, 7},
-		//	boardingCost: 3,
-		//	runningCost:  8,
-		//	want:         9,
-		//},
+		{
+			name:         "test1",
+			customers:    []int{10, 10, 6, 4, 7},
+			boardingCost: 3,
+			runningCost:  8,
+			want:         9,
+		},
 		{
 			name:         "test2",
 			customers:    []int{10, 10, 1, 0, 0},

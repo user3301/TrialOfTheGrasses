@@ -1,22 +1,21 @@
 package gosoln
 
+import "github.com/user3301/TrialOfTheGrasses/Go/pkg/utils"
+
 func MinOperationsMaxProfit(customers []int, boardingCost, runningCost int) int {
-	currentWaiting := 0
-	for _, v := range customers {
-		currentWaiting += v
-	}
-	maxProfit, currentProfit, rotated, bestRotated := 0, 0, 0, 0
-	for currentWaiting > 0 {
-		if currentWaiting >= 4 {
-			currentProfit += boardingCost*4 - runningCost
-			currentWaiting -= 4
-		} else {
-			currentProfit += boardingCost*currentWaiting - runningCost
-			currentWaiting = 0
+	curWaiting, maxProfit, curProfit, rotated, bestRotated := 0, 0, 0, 0, 0
+	i := 0
+	for curWaiting > 0 || i < len(customers) {
+		if i < len(customers) {
+			curWaiting += customers[i]
+			i++
 		}
+		boarded := utils.MinInt(4, curWaiting)
+		curProfit += boardingCost*boarded - runningCost
+		curWaiting -= boarded
 		rotated++
-		if maxProfit < currentProfit {
-			maxProfit = currentProfit
+		if curProfit > maxProfit {
+			maxProfit = curProfit
 			bestRotated = rotated
 		}
 	}
