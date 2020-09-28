@@ -24,3 +24,5 @@ func TestThroneInheritance1(t *testing.T) {
 		}
 	}
 }
+
+//[null,null,null,null,null,null,null,["king","andy","matthew","bob","alex","asha","catherine"],null,["king","andy","matthew","alex","asha","catherine"]]

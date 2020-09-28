@@ -33,12 +33,14 @@ func (t *ThroneInheritance) GetInheritanceOrder() []string {
 	stack := make([]*ThroneInheritance, 1)
 	copy(stack, []*ThroneInheritance{t})
 	for len(stack) > 0 {
-		cur := stack[0]
+		cur := stack[len(stack)-1]
 		if !cur.IsDead {
 			ans = append(ans, cur.Name)
 		}
-		stack = append(stack, cur.Successors...)
-		stack = stack[1:]
+		stack = stack[:len(stack)-1]
+		for i := len(cur.Successors) - 1; i >= 0; i-- {
+			stack = append(stack, cur.Successors[i])
+		}
 	}
 	return ans
 }
