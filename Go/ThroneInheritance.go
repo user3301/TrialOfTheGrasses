@@ -18,47 +18,47 @@ func NewThroneInheritance(kingName string) ThroneInheritance {
 
 func (t *ThroneInheritance) Birth(parentName, childName string) {
 	newThroneInheritance := NewThroneInheritance(childName)
-	if t.Name == parentName {
-		t.Successors = append(t.Successors, &newThroneInheritance)
-	}
-	inheritance := locate(t.Successors, parentName, 0)
+	inheritance := locate(t, parentName)
 	inheritance.Successors = append(inheritance.Successors, &newThroneInheritance)
 }
 
 func (t *ThroneInheritance) Death(name string) {
-	if t.Name == name {
-		t.IsDead = true
-	}
-	inheritance := locate(t.Successors, name, 0)
+	inheritance := locate(t, name)
 	inheritance.IsDead = true
 }
 
 func (t *ThroneInheritance) GetInheritanceOrder() []string {
 	var ans []string
-	if !t.IsDead {
-		ans = append(ans, t.Name)
-	}
-	var q []*ThroneInheritance
-	q = append(q, t.Successors...)
-	for len(q) > 0 {
-		size := len(q)
-		for i := 0; i < size; i++ {
-			if !q[i].IsDead {
-				ans = append(ans, q[i].Name)
-				q = append(q, q[i].Successors...)
-			}
+
+	stack := make([]*ThroneInheritance, 1)
+	copy(stack, []*ThroneInheritance{t})
+	for len(stack) > 0 {
+		cur := stack[0]
+		if !cur.IsDead {
+			ans = append(ans, cur.Name)
 		}
+		stack = append(stack, cur.Successors...)
+		stack = stack[1:]
 	}
 	return ans
 }
 
-func locate(tarr []*ThroneInheritance, parentName string, i int) *ThroneInheritance {
-	if len(tarr) <= 0 {
-		panic("not successors")
+func locate(root *ThroneInheritance, targetName string) *ThroneInheritance {
+	if root.Name == targetName {
+		return root
 	}
-	if tarr[i].Name == parentName {
-		return tarr[i]
+	q := make([]*ThroneInheritance, len(root.Successors))
+	copy(q, root.Successors)
+	for len(q) > 0 {
+		size := len(q)
+		for i := 0; i < size; i++ {
+			cur := q[i]
+			if cur.Name == targetName {
+				return q[i]
+			}
+			q = append(q, q[i].Successors...)
+		}
+		q = q[size:]
 	}
-	i++
-	return locate(tarr, parentName, i)
+	panic("cannot find")
 }
