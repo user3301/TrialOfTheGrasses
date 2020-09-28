@@ -10,6 +10,7 @@ func MinOperations(logs []string) int {
 				awayFromRoot = 0
 			}
 		case "./":
+			continue
 		default:
 			awayFromRoot++
 		}
