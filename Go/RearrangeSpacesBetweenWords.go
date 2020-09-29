@@ -1,41 +1,23 @@
 package gosoln
 
+import "strings"
+
 func ReorderSpaces(text string) string {
-	var words []string
-	spaceCnt := 0
-	var tempWord []rune
-	for _, rv := range text {
-		if rv == ' ' {
-			spaceCnt++
-			if len(tempWord) != 0 {
-				words = append(words, string(tempWord))
-				tempWord = []rune{}
-			}
-		} else {
-			tempWord = append(tempWord, rv)
-		}
-	}
-	if len(tempWord) != 0 {
-		words = append(words, string(tempWord))
-	}
-	spaceBetween, remain := 0, 0
-	if len(words) == 1 {
-		remain = spaceCnt
+	spaceCnt := strings.Count(text, " ")
+	words := strings.Fields(text)
+	spaceAfter, spaceBetween := 0, 0
+	if len(words) <= 1 {
+		spaceAfter = spaceCnt
+		spaceBetween = 0
 	} else {
 		spaceBetween = spaceCnt / (len(words) - 1)
-		remain = spaceCnt % (len(words) - 1)
+		spaceAfter = spaceCnt % (len(words) - 1)
 	}
-
-	ans := ""
-	for j, w := range words {
-		ans += w
-		for i := 0; i < spaceBetween && j < len(words)-1; i++ {
-			ans += " "
-		}
-
+	var sb strings.Builder
+	for _, w := range words {
+		sb.WriteString(w)
+		sb.WriteString(strings.Repeat(" ", spaceBetween))
 	}
-	for i := 0; i < remain; i++ {
-		ans += " "
-	}
-	return ans
+	sb.WriteString(strings.Repeat(" ", spaceAfter))
+	return strings.TrimSuffix(sb.String(), strings.Repeat(" ", spaceBetween))
 }
