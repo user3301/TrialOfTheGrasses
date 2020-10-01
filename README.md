@@ -66,6 +66,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [C#](./CSharp/leetcodesln/Sqrt(x).cs) [Go](Go/Sqrt_x_.go)| Easy | `Binary Search` | O(logn) | O(1) |
 | 75 | :star: [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C#](./CSharp/leetcodesln/SortColors.cs) | Medium | `Two Pointers` | O(n) | O(1) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C#](./CSharp/leetcodesln/MinimumWindowSubstring.cs) | Hard | `Sliding Window`, `HashTable` | O(n) | O(n) |
+| 87 | [Subsets](https://leetcode.com/problems/subsets/) | [Go](./Go/Subsets.go) | Medium | `Backtracking` | O(2^n) | O(n) |
 | 80 | :star: [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [C#](./CSharp/leetcodesln/RemoveDuplicatesFromSortedArrayII.cs) | Medium | `Two Pointers` | O(n) | O(1) |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [C#](CSharp/leetcodesln/RemoveDuplicatesFromSortedList.cs) [Go](Go/RemoveDuplicatesFromSortedList.go) | Easy | `Linked List` `Recursion` | O(n) | O(n) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C#](./CSharp/leetcodesln/MergeSortedArray.cs) [Go](Go/MergeSortedArray.go) | Easy | `Two Pointers` | O(n) | O(1) |  
@@ -315,6 +316,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 |---|----|--------|--------|----|-----|------|
 | 39 | :star: [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C#](./CSharp/leetcodesln/CombinationSum.cs) | Medium | `Backtracking` | O(2^n) | O(n) |
 | 46 | :star: [Permutations](https://leetcode.com/problems/permutations/) | [Go](./Go/Permutations.go) | Medium | `Backtracking` | O(2^n) | O(n) |
+| 87 | [Subsets](https://leetcode.com/problems/subsets/) | [Go](./Go/Subsets.go) | Medium | `Backtracking` | O(2^n) | O(n) |
 
 ### Math
 
