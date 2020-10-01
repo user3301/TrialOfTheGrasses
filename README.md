@@ -59,6 +59,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C#](./CSharp/leetcodesln/SearchInsertPosition.cs) | Medium | `Binary Search` | O(logn) | O(1) |
 | 36 | :star:[Valid Suduku](https://leetcode.com/problems/valid-sudoku/) | [C#](./CSharp/leetcodesln/ValidSudoku.cs) | Medium | `Hashtable` | O(81) | O(81*3) |
 | 39 | :star: [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C#](./CSharp/leetcodesln/CombinationSum.cs) | Medium | `Backtracking` | O(2^n) | O(n) |
+| 46 | :star: [Permutations](https://leetcode.com/problems/permutations/) | [Go](./Go/Permutations.go) | Medium | `Backtracking` | O(2^n) | O(n) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [C#](./CSharp/leetcodesln/RotateImage.cs) | Medium | `Array`, `Two Pointers` | O(n) | O(1) |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [C#](./CSharp/leetcodesln/PowX_N.cs) | Medium | `Binary Search`, `Recursion` | O(logn) | O(1) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [C#](./CSharp/leetcodesln/PlusOne.cs) [Go](./Go/PlusOne.go) | Easy | `Array` | O(n) | O(1) |
@@ -313,6 +314,7 @@ Hashtable has O(1) read/write, hashtable are often used to save preprocessed res
 | # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
 |---|----|--------|--------|----|-----|------|
 | 39 | :star: [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C#](./CSharp/leetcodesln/CombinationSum.cs) | Medium | `Backtracking` | O(2^n) | O(n) |
+| 46 | :star: [Permutations](https://leetcode.com/problems/permutations/) | [Go](./Go/Permutations.go) | Medium | `Backtracking` | O(2^n) | O(n) |
 
 ### Math
 
