@@ -2,25 +2,24 @@ package gosoln
 
 func Permute(nums []int) [][]int {
 	var ans [][]int
-	permuteBacktrack(&ans, []int{}, nums)
-	return ans
-}
-
-func permuteBacktrack(ans *[][]int, arr, nums []int) {
-	if len(arr) == len(nums) {
-		in := make([]int, len(arr))
-		copy(in, arr)
-		*ans = append(*ans, in)
-	} else {
-		for _, num := range nums {
-			if contains(arr, num) {
-				continue
+	n := len(nums)
+	var backtrack func(arr []int)
+	backtrack = func(arr []int) {
+		if len(arr) == n {
+			ans = append(ans, append([]int{}, arr...))
+		} else {
+			for _, v := range nums {
+				if contains(arr, v) {
+					continue
+				}
+				arr = append(arr, v)
+				backtrack(arr)
+				arr = arr[:len(arr)-1]
 			}
-			arr = append(arr, num)
-			permuteBacktrack(ans, arr, nums)
-			arr = arr[: len(arr)-1 : len(arr)]
 		}
 	}
+	backtrack([]int{})
+	return ans
 }
 
 func contains(arr []int, target int) bool {
