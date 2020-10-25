@@ -72,6 +72,7 @@ Finally, came the seventh day. The male awoke and opened his eyes, and his eyes 
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C#](./CSharp/leetcodesln/MergeSortedArray.cs) [Go](Go/MergeSortedArray.go) | Easy | `Two Pointers` | O(n) | O(1) |  
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C#](./CSharp/leetcodesln/ValidPalindrome.cs) [Go](Go/ValidPalindrome.go) | Easy | `Two Pointers` | O(n) | O(1) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C#](./CSharp/leetcodesln/LinkedListCycle.cs) [Go](Go/LinkedListCycle.go) | Easy | `Two Pointers`, `HashTable` | O(n) | O(1) |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C#](./CSharp/leetcodesln/MinStack.cs) [Go](.Go/MinStack.go) | Easy | `Stack` | O(n) | O(1) |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C#](./CSharp/leetcodesln/TwoSumII.cs) [Go](Go/TwoSumII.go) | Easy | `Two Pointers` | O(n) | O(1) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C#](./CSharp/leetcodesln/MajorityElement.cs) [Go](Go/MajorityElement.go)| Easy | `Array`, `Boyer-Moore Voting Algorithm`, `Bit Manipulation` | O(n) | O(1) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Go](./Go/RotateArray.go) | Easy | `Two Pointers`, `Array` | O(n), O(n) | O(n)  O(1) |
@@ -281,6 +282,7 @@ Prefix-caching can solve many subarray related problems.
 
 | # | Question | Solution | Difficulty | Tag | Time Complexity | Space Complexity |
 |---|----|--------|--------|----|-----|------|
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C#](./CSharp/leetcodesln/MinStack.cs) [Go](.Go/MinStack.go) | Easy | `Stack` | O(n) | O(1) |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [C#](./CSharp/leetcodesln/BackspaceStringCompare.cs) | Easy | `Stack`, :star:`Two Pointers` | O(n) | O(1) |
 | 1600 | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | [Go](./Go/ThroneInheritance.go) | Medium | `DFS` | O(n) | O(1) |
 
