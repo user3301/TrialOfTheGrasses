@@ -12,8 +12,7 @@ func MyAtoi(s string) int {
 		"in_number": {"end", "end", "in_number", "end"},
 		"end":       {"end", "end", "end", "end"},
 	}
-	var switchState func(s rune) int
-	switchState = func(s rune) int {
+	switchState := func(s rune) int {
 		switch s {
 		case ' ':
 			return 0
