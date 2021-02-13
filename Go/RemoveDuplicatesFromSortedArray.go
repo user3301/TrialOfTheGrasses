@@ -2,10 +2,8 @@ package gosoln
 
 func RemoveDuplicates(nums []int) int {
 	n := len(nums)
-	if n == 0 {
-		return 0
-	} else if n == 1 {
-		return 1
+	if n <= 1 {
+		return n
 	}
 
 	cur, sorted := 1, 0
