@@ -4,7 +4,7 @@ import "math"
 
 func minOperations(boxes string) []int {
 	ans := make([]int, len(boxes))
-	for i, _ := range ans {
+	for i := range ans {
 		ans[i] = calculateOperations(i, boxes)
 	}
 	return ans
