@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/Go"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: github.com/google/go-cmp
+    versions:
+    - 0.5.4
+  - dependency-name: github.com/stretchr/testify
+    versions:
+    - 1.7.0
