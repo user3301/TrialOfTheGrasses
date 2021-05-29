@@ -28,7 +28,7 @@ matrix:
       before_script:
         - cd Java
       script:
-        - mvn test
+        - gradle test
 
 notifications:
   email:
