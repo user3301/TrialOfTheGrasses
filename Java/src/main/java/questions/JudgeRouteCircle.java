@@ -1,7 +1,5 @@
 package questions;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 /**
  * Created by user3301 on 8/21/2017.
  * Initially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place.
