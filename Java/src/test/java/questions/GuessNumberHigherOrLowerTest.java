@@ -10,5 +10,6 @@ public class GuessNumberHigherOrLowerTest {
         GuessNumberHigherOrLower outer = new GuessNumberHigherOrLower();
         GuessNumberHigherOrLower.Solution solution = outer.new Solution(6);
         Assertions.assertEquals(6, solution.guessNumber(10));
+
     }
 }
